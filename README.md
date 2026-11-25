@@ -1,10 +1,8 @@
 <div align="center">
 
-# 👋 Vladislav · DeadSno
+<img src="assets/header.svg" alt="Vladislav · DeadSno — системный аналитик, данные и AI-агенты" width="100%">
 
-**Системный аналитик. Строю воспроизводимый анализ данных и инструменты для AI-агентов.**
-
-📍 Саратов, Россия · Python · SQL · DuckDB · Streamlit · TypeScript
+**📍 Саратов, Россия · открытый код · MIT**
 
 [![agent-steward stars](https://img.shields.io/github/stars/DeadSno/agent-steward?style=for-the-badge&logo=github&label=agent-steward)](https://github.com/DeadSno/agent-steward)
 [![npm version](https://img.shields.io/npm/v/agent-steward?style=for-the-badge&logo=npm&color=CB3837&label=npm)](https://www.npmjs.com/package/agent-steward)
