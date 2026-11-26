@@ -14,7 +14,7 @@
 ## Чем занимаюсь
 
 - **Анализ данных:** SQL и DuckDB → проверяемые выводы, дашборды на Streamlit, открытые данные.
-- **AI-инфраструктура:** планирование и оркестрация задач для OpenCode — cron, DAG, matrix, quality gates, локальный дашборд.
+- **AI-инфраструктура:** локальный MCP-сервер и оркестрация задач агентов — cron, DAG, matrix, quality gates, собственный дашборд.
 - **Качество:** тесты, аудит данных, явная методология и воспроизводимость экспериментов.
 
 ## Проекты
@@ -27,9 +27,9 @@
 
 ### ⚙️ [agent-steward](https://github.com/DeadSno/agent-steward)
 
-Плагин для OpenCode V1/V2: разовые и cron-задачи через нативный планировщик ОС, DAG-пайплайны, matrix-сборки по нескольким репозиториям, quality gates, история в SQLite и веб-дашборд с метриками. Работает локально, без SaaS и телеметрии. MIT, интерфейс на RU / EN / 中文 / Türkçe.
+Локально-первый фреймворк оркестрации агентов: **MCP-сервер** (stdio, 34 инструмента) и плагин OpenCode V1/V2 как точки входа, плюс CLI и standalone. Разовые и cron-задачи в нативном планировщике ОС, DAG-пайплайны, matrix-сборки по нескольким репозиториям, quality gates, история в SQLite и локальный дашборд с метриками. Без SaaS и телеметрии. MIT, интерфейс на RU / EN / 中文 / Türkçe.
 
-[GitHub](https://github.com/DeadSno/agent-steward) · [npm](https://www.npmjs.com/package/agent-steward) · [Документация](https://github.com/DeadSno/agent-steward#readme)
+[GitHub](https://github.com/DeadSno/agent-steward) · [npm](https://www.npmjs.com/package/agent-steward) · [MCP-настройка](https://github.com/DeadSno/agent-steward/blob/dev/docs/mcp-setup.md) · [Документация](https://github.com/DeadSno/agent-steward#readme)
 
 ## Стек
 
@@ -37,7 +37,7 @@
 
 ## Сейчас в работе
 
-- Развиваю `agent-steward`: кросс-платформенный шедулер, мультирепозиторий-задачи и наблюдаемость.
+- Развиваю `agent-steward`: MCP-сервер, кросс-платформенный шедулер, мультирепозиторий-задачи и наблюдаемость.
 - Поддерживаю данные `brain-25-evidence` в актуальном состоянии: квартальный аудит PMID и обновление мета-анализов.
 
 ## Связаться
